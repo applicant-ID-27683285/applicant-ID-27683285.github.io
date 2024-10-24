@@ -17,8 +17,8 @@
     }
     .callout {
       background-color: #eeeeee;
-      border-radius:20px;
-      border-top:20px solid rgb(0, 90, 146);
+      border-radius:10px;
+      border-top:10px solid rgb(0, 90, 146);
     }
     body {
       font-family: 'Inter var', sans-serif;
@@ -56,11 +56,14 @@
       border-color:#1ab7e2;
       color:rgb(64, 60, 61);
     }
+    .navbar-toggler {
+      border-color:rgb(64, 60, 61);
+    }
   </style>
   <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="logo.jpg" style="max-width:400px;"></a>
+          <a class="navbar-brand" href="#"><img src="logo.jpg" style="max-width:300px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -70,7 +73,7 @@
                 <a class="nav-link active fw-bolder pt-3 pe-5" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bolder pt-3 pe-5" href="#">Features</a>
+                <a class="nav-link fw-bolder pt-3 pe-5" href="#classes">Classes</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://www.cloviscollege.edu/admissions-and-aid/admissions/index.html"><button type="button" class="btn btn-success fw-bolder">APPLY NOW</button></a>
@@ -89,7 +92,7 @@
               <h2 class="fw-bolder ccc-blue">Earn a certificate or an Associate degree.</h2>
               <p>The Mechatronics Industrial Automation program prepares students for high-demand jobs in the Central Valley, such as field service technician, industrial maintenance technician, maintenance mechanic, or maintenance repair mechanic.</p>
               <ul>
-                <li>Students can earn a certificate or associate degree.</li>
+                <li class="py-2">Students can earn a certificate or associate degree.</li>
                 <li>The program prepares students for the National Institute of Metal Working Skills (NIMS) Industrial Technician Maintenance (ITM) credentialing program.</li>
               </ul>
               <h3 class="fw-bolder h5">The program begins in Spring 2025!</h3>
@@ -107,11 +110,11 @@
             </div>
             <div class="col-lg-6">
               <p class="h1 fw-bolder text-center pt-3 ccc-blue">$65,680</p>
-              <p class="text-center pb-3 lead px-5 ccc-blue">Three-year average salary for full-time related employment</p>
+              <p class="text-center pb-3 lead fw-medium px-5 ccc-blue">Three-year average salary for full-time related employment</p>
               <ul>
-                <li>Gain hands-on, practical experience in welding, hydraulics, electricity, mechanical fundamentals, and machine alignment.</li>
-                <li>Build skills in electronics, computerized equipment maintenance, and preventative/predictive maintenance.</li>
-                <li>Learn and apply predictive and preventative maintenance methods; the basics of analysis, vibration analysis, and thermal analysis applications; and use and apply a computerized maintenance management system.</li>
+                <li class="py-2">Gain hands-on, practical experience in welding, hydraulics, electricity, mechanical fundamentals, and machine alignment.</li>
+                <li class="py-2">Build skills in electronics, computerized equipment maintenance, and preventative/predictive maintenance.</li>
+                <li class="py-2">Learn and apply predictive and preventative maintenance methods; the basics of analysis, vibration analysis, and thermal analysis applications; and use and apply a computerized maintenance management system.</li>
               </ul>
             </div>
           </div></div></div>
@@ -127,7 +130,7 @@
         </div>
       </div>
     </div>
-      <div class="container py-5">
+      <div class="container py-5" id="classes">
         <div class="row">
             <div class="col">
               <h2 class="text-center fw-bolder mb-3">Spring 2025 Classes Start January 9:</h2>
@@ -200,7 +203,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-3">
-              <img src="ccc_footer.png" class="img-fluid">
+              <img src="ccc_footer.png" class="img-fluid px-5 px-md-0">
             </div>
             <div class="col-md-9">
               <p class="pt-3"><span class="h5">Clovis Community College</span><br>
